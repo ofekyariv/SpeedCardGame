@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="@string/welcome"
+        android:textColor="#000000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true">
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="250dp"
+                android:layout_height="20dp"
+                android:max="25"
+                android:min="0"
+                android:progress="0"
+                style="@android:style/Widget.Material.Light.ProgressBar.Horizontal" />
+            <TextView
+                android:id="@+id/pLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/player_level"
+                android:textColor="#000000"
+                android:fontFamily="@font/baloo" />
+
+        </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnRules"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_guide" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:src="@drawable/speed_new3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:context=".MainActivity"
+        android:layout_centerVertical="true"
+        tools:ignore="ExtraText,MissingClass">
+        <ImageButton
+            android:id="@+id/btnChamp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_competition"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/btnPlay"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/play" />
+
+        <ImageButton
+            android:id="@+id/btnScore"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_score"
+            android:background="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/btnAudio"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/sound" />
+
+
+</RelativeLayout>

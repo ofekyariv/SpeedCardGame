@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_background"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        tools:ignore="ExtraText,MissingClass">
+
+        <ImageButton
+            android:id="@+id/botDeskCards"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:clickable="false"/>**********
+
+        <ImageButton
+            android:id="@+id/twoCard1"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:id="@+id/twoCard2"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/twoCard3"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:id="@+id/twoCard4"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/twoCard5"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:text="@string/tv_seconds"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        tools:ignore="ExtraText,MissingClass">
+
+        <ImageButton
+            android:id="@+id/deskClose1"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="180dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/deskOpen1"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/deskOpen2"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/deskClose2"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        tools:ignore="ExtraText,MissingClass">
+
+
+
+        <ImageButton
+            android:id="@+id/oneCard1"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:scaleType="fitXY"
+            android:layout_alignParentRight="true"/>
+
+        <ImageButton
+            android:id="@+id/oneCard2"
+            android:layout_width="87dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:scaleType="fitXY"
+            android:layout_alignParentRight="true" />
+
+        <ImageButton
+            android:id="@+id/oneCard3"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/oneCard4"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/oneCard5"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/myDeskCards"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/card_back"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SpeedCardGame</string>
+    <string name="speed_name">Speed</string>
+    <string name="player_one">Player one</string>
+    <string name="player_two">Player Two</string>
+    <string name="desk_cards">Desk Cards</string>
+    <string name="cards_details">Cards Details</string>
+    <string name="preference_file_key">user_details</string>
+    <string name="user_name">user details</string>
+    <string name="user_password">user password</string>
+    <string name="first_game">is first game</string>
+    <string name="btn_beginner">Beginner</string>
+    <string name="btn_easy">Easy</string>
+    <string name="btn_hard">Hard</string>
+    <string name="btn_reflex">Quick Reflex!</string>
+    <string name="play_game">Choose your difficulty!</string>
+    <string name="welcome">Welcome :</string>
+    <string name="app_login">Login</string>
+    <string name="et_user">Enter Username</string>
+    <string name="et_pass">Enter Password</string>
+    <string name="player_level">Level 1</string>
+    <string name="app_signup">Sign Up Now!</string>
+    <string name="et_email">Enter Email If Signing Up</string>
+    <string name="tv_seconds">0:00:0</string>
+    <string name="btn_rules">Rules</string>
+    <string name="btn_Audio">Play Audio</string>
+    <string name="tv_details">Welcome</string>
+    <string name="tv_user">You</string>
+    <string name="bot_1">bot 1</string>
+    <string name="bot_2">bot 2</string>
+    <string name="bot_3">bot 3</string>
+    <string name="bot_4">bot 4</string>
+    <string name="bot_5">bot 5</string>
+    <string name="bot_6">bot 6</string>
+    <string name="bot_7">bot 7</string>
+    <string name="play">Play</string>
+
+
+    <string-array name="open_cards">
+        <item> Select </item>
+        <item> Left </item>
+        <item> Right </item>
+    </string-array>
+
+</resources>

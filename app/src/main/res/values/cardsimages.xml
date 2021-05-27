@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images">
+        <item>@drawable/ace_of_clubs</item>
+        <item>@drawable/ace_of_diamonds</item>
+        <item>@drawable/ace_of_hearts</item>
+        <item>@drawable/ace_of_spades</item>
+        <item>@drawable/two_of_clubs</item>
+        <item>@drawable/two_of_diamonds</item>
+        <item>@drawable/two_of_hearts</item>
+        <item>@drawable/two_of_spades</item>
+        <item>@drawable/three_of_clubs</item>
+        <item>@drawable/three_of_diamonds</item>
+        <item>@drawable/three_of_hearts</item>
+        <item>@drawable/three_of_spades</item>
+        <item>@drawable/four_of_clubs</item>
+        <item>@drawable/four_of_diamonds</item>
+        <item>@drawable/four_of_hearts</item>
+        <item>@drawable/four_of_spades</item>
+        <item>@drawable/five_of_clubs</item>
+        <item>@drawable/five_of_diamonds</item>
+        <item>@drawable/five_of_hearts</item>
+        <item>@drawable/five_of_spades</item>
+        <item>@drawable/six_of_clubs</item>
+        <item>@drawable/six_of_diamonds</item>
+        <item>@drawable/six_of_hearts</item>
+        <item>@drawable/six_of_spades</item>
+        <item>@drawable/seven_of_clubs</item>
+        <item>@drawable/seven_of_diamonds</item>
+        <item>@drawable/seven_of_hearts</item>
+        <item>@drawable/seven_of_spades</item>
+        <item>@drawable/eight_of_clubs</item>
+        <item>@drawable/eight_of_diamonds</item>
+        <item>@drawable/eight_of_hearts</item>
+        <item>@drawable/eight_of_spades</item>
+        <item>@drawable/nine_of_clubs</item>
+        <item>@drawable/nine_of_diamonds</item>
+        <item>@drawable/nine_of_hearts</item>
+        <item>@drawable/nine_of_spades</item>
+        <item>@drawable/ten_of_clubs</item>
+        <item>@drawable/ten_of_diamonds</item>
+        <item>@drawable/ten_of_hearts</item>
+        <item>@drawable/ten_of_spades</item>
+        <item>@drawable/jack_of_clubs</item>
+        <item>@drawable/jack_of_diamonds</item>
+        <item>@drawable/jack_of_hearts</item>
+        <item>@drawable/jack_of_spades</item>
+        <item>@drawable/queen_of_clubs</item>
+        <item>@drawable/queen_of_diamonds</item>
+        <item>@drawable/queen_of_hearts</item>
+        <item>@drawable/queen_of_spades</item>
+        <item>@drawable/king_of_clubs</item>
+        <item>@drawable/king_of_diamonds</item>
+        <item>@drawable/king_of_hearts</item>
+        <item>@drawable/king_of_spades</item>
+        <item>@drawable/black_joker</item>
+        <item>@drawable/red_joker</item>
+
+
+    </array>
+</resources>

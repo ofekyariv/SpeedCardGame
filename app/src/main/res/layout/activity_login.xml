@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo"
+        android:text="Welcome!"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_title"
+        android:hint="@string/et_user"
+        android:inputType="textCapSentences"
+        />
+
+    <EditText
+        android:id="@+id/etPassWord"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_below="@+id/etUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/et_pass"
+        android:inputType="textPassword"
+         />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:layout_below="@+id/etPassWord"
+        android:textColor="#000000"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        android:text="@string/app_login"/>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        android:text="@string/app_signup"/>
+
+
+
+</RelativeLayout>
